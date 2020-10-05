@@ -6,24 +6,30 @@
     color: darkred;
     background-color: #eeb140;
 }
+img {
+    max-width: 100%;
+}
 
 header{
     padding: 15px 70px;
+    display: inline-block;
     width: 100%;
     
 }
 
 .logo{
     float: left;
+    width: 50%;
+    height: 20;
 }
-body {
-    font-family: "Poppins", sans-serif;
+.options{
+    float: right;
+    display: inline-block;
+    
 }
 
-.options{
-    display: inline-block;
-    float: right;
-    margin-top: -300px ;
+body {
+    font-family: "Poppins", sans-serif;
 }
 
 ul li{
@@ -36,9 +42,8 @@ ul li{
 }
 
 .left{
-    width: 50%;
+    width: 45%;
     float: left;
-    margin-top: 300px;
     text-align: left;
     font-size: 20px;
     padding: 0 0 0 80px;
@@ -46,16 +51,19 @@ ul li{
 
 .left a {
     display: inline-block;
-    padding: 30px 150px;
+    padding: 30px 100px;
     background-color: darkred;
     color: white;
     text-decoration: none;
-
+    font-size: 25px;
+    margin-top: 1%;
+    box-shadow:  0 0 0 5px rgba(0, 0, 0, 0.16);
+    float: right;
 }
 
 .right{
     width: 50%;
     float: right;
-    margin-top: 300px;
+    margin-top: 1%;
 }
 

@@ -7,33 +7,48 @@
     <script src="./script.js" defer></script>
     <title>🍕 Pizza Hot!</title>
 </head>
-<header>
-    <div class="logo">
-        <img src="./images/logo-pizzahot.png" alt="Logo Pizza Hot!"/>
-    </div>
-    <div class="options">
-        <ul>
-            <li a href="#">HOME</a></li> 
-            <li a href="#">MENU</a></li>
-            <li a href="#">PROMOÇÃO</a></li>
-            <li a href="#">FALE CONOSCO</a></li>
-        </ul>
-    </div>
-</header>
 <body>
-    <div class="content">
-        <div class = "left">
-            <h1>CROCANTE POR FORA</h1>
-            <p>&</p>
-            <h1>MACIA POR DENTRO</h1>
-            <br>
-            <p>Desde 1970 deixando seu momento em família ainda mais gostoso.</p>
-            <br>
-            <a href="#">QUERO PIZZA HOT!</a>
-        </div>
-        <div class="right">
-            <img src="./images/img-pizza.png" alt="Foto de pizza por Pixabay"/>
+    <div class="data">
+        <header>
+            <div class="logo">
+                <img class="logo"src="./images/logo-pizzahot.png" alt="Logo Pizza Hot!"/>
+            </div>
+            <div class="options">
+                <ul>
+                    <li a href="#">HOME</a></li> 
+                    <li a href="#">MENU</a></li>
+                    <li a href="#">PROMOÇÃO</a></li>
+                    <li a href="#">FALE CONOSCO</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class = "left">
+                <h1>CROCANTE POR FORA</h1>
+                <p>&</p>
+                <h1>MACIA POR DENTRO</h1>
+                <br>
+                <p>Desde 1970 deixando seu momento em família ainda mais gostoso.</p>
+                <br>
+                <a class="js-tilt" href="#">QUERO PIZZA HOT!</a>
+            </div>
+            <div class="right">
+                <img class="js-tilt" src="./images/img-pizza.png" alt="Foto de pizza por Pixabay"/>
+            </div>
         </div>
     </div>
+
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script type="text/javascript">
+        $('.js-tilt').tilt({
+        scale: 1.0
+    })
+</script> 
+
 </body>
 </html>
