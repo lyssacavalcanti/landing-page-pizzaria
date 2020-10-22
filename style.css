@@ -6,15 +6,6 @@
     color: darkred;
     background-color: #eeb140;
 }
-.square {
-    position: absolute;
-    top: 300;
-    right: 10;
-    width: 0px;
-    height: 500px;
-    background-color: darkred;
-    z-index: -1;
-}
 
 data {
     margin-top: 100px;
